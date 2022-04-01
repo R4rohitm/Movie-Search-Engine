@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#navbar {
+  margin-top: 30px;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(3, 3, 29);
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 70px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+#trendingmovies {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+#divtag {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: rgb(3, 3, 29);
+}
+
+#divtag > img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+#divtag > h3 {
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(219, 212, 212);
+}
+
+#datediv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 12px;
+  font-family: "Roboto", sans-serif;
+  margin-top: -20px;
+  color: rgb(219, 212, 212);
+  margin-bottom: -20px;
+}
+
+#divvotes {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: rgb(219, 212, 212);
+  padding: 0px 12px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+#divvotes > :nth-child(1) {
+  padding-left: 2px;
+  font-size: 13px;
+}
